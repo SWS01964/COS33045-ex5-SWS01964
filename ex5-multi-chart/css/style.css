@@ -1,0 +1,67 @@
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 0;
+  background: #f5f5f5;
+  color: #222;
+}
+
+header, footer {
+  background: #2c3e50;
+  color: white;
+  padding: 10px 20px;
+}
+
+nav a {
+  color: white;
+  margin-right: 15px;
+}
+
+main {
+  max-width: 1000px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.responsive-svg-container {
+  margin-right: auto;
+  margin-left: auto;
+  width: 100%;
+  max-width: 1200px;
+  background: white;
+}
+
+.bar {
+  fill: #4682b4;
+}
+
+.bar-label {
+  font-size: 14px;
+  fill: #222;
+}
+
+.axis-label {
+  font-size: 14px;
+  fill: #444;
+}
+
+.tick text {
+  font-size: 13px;
+}
+
+.price-line {
+  fill: none;
+  stroke: #e67e22;
+  stroke-width: 2.5;
+}
+
+.price-point {
+  fill: #e67e22;
+  stroke: white;
+  stroke-width: 1;
+}
+
+.donut-label {
+  font-size: 14px;
+  font-weight: bold;
+  fill: white;
+}
